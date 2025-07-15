@@ -1,0 +1,10 @@
+# This is Git's per-user configuration file.
+[user]
+	email = imdahlnils@gmail.com
+	name = Nils Imdahl
+# Please adapt and uncomment the following lines:
+#	name = Nils Imdahl
+#	email = imdahlnils@gmail.com
+
+[url "ssh://git@github.com/"]
+    insteadOf = https://github.com/

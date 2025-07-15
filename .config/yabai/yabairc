@@ -1,0 +1,23 @@
+yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
+sudo yabai --load-sa
+
+# Layout config
+yabai -m config layout bsp  # Binary space partitioning
+yabai -m config window_placement second_child
+
+# Padding and gaps
+yabai -m config top_padding    12
+yabai -m config bottom_padding 12
+yabai -m config left_padding   12
+yabai -m config right_padding  12
+yabai -m config window_gap     12
+
+# Mouse support
+yabai -m config mouse_follows_focus on
+yabai -m config focus_follows_mouse autofocus
+
+# Window modifications
+yabai -m config window_opacity               off
+yabai -m config window_shadow                on
+yabai -m config active_window_opacity        1.0
+yabai -m config normal_window_opacity        0.90

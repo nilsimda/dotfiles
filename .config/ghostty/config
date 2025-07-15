@@ -1,0 +1,8 @@
+theme = rose-pine 
+shell-integration = zsh
+
+keybind = super+x=close_tab
+keybind = super+,=reload_config
+
+working-directory=inherit
+window-save-state = always
